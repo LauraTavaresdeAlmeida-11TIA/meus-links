@@ -21,7 +21,7 @@ div {
     border-radius: 12px;
 }
 
-h1, p, a{
+h1, p, a {
     color: #FFF;
 }
 
@@ -43,6 +43,31 @@ div strong {
     line-height: 21px;
 }
 
-div p{
+div p {
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+div a + a {
+    margin-top: 16px;
     
+}
+
+    div a{
+    display: block;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+div a:hover {
+    background-color: #C4F82A;
+    color: #141414;
+    transition: 0.7s;
+
 }
